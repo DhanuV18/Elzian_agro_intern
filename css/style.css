@@ -4,6 +4,7 @@
     --color-accent: #;
     --color-dark: black;
     --color-body: rgb(235, 218, 196);
+    --color-border-blue: rgb(4, 4, 115);
 }
 
 *,
@@ -23,7 +24,7 @@ body {
     font-size: 2.4rem;
     line-height: 1.5;
     margin: 0;
-    color: var(--color-body);
+    background-color: var(--color-body);
 }
 
 img{
@@ -82,3 +83,71 @@ p {
         font-size: 2rem;
     }
 }
+
+
+
+/* Button */
+
+.btn {
+    font-size: 1.8rem;
+    margin: 5rem 0;
+    padding: 1rem 2.2rem;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--color-dark);
+}
+
+.btn--primary {
+    background-color: var(--color-primary-600);
+    color: white;
+}
+
+
+.btn--primary:hover {
+    box-shadow: 0px 8px 20px 1.5px var(--color-primary-400);
+}
+
+.btn--block {
+    display: inline-block;
+    width: 100%;
+}
+
+.btn--outline {
+    border: 4px solid var(--color-border-blue);
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.btn--cv {
+    transition: transform 0.15s;
+}
+
+.btn--cv:hover {
+    transform: translateY(-5px);
+}
+
+.hero .btn:hover {
+    text-align: center;
+    padding-bottom: .70rem;
+}
+
+.btn .icon {
+    display: none;
+    transition: all 0.15s;
+}
+
+.btn:hover .icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 0.65rem;
+    vertical-align: middle;
+}
+
