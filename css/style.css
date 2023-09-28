@@ -275,7 +275,7 @@ p {
 .nav {
     background: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 1rem 0 1rem;
     align-items: center;
@@ -283,12 +283,12 @@ p {
 
 .nav__list {
     width: 100%;
-    margin: 0;
+    margin: 1rem 2rem 0 0;
 
 }
 
 .nav--logo{
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 
 
@@ -304,7 +304,7 @@ p {
 
 .nav__item>a {
     color: var(--color-primary);
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     transition: color 0.3s;
 }
 
@@ -319,6 +319,7 @@ p {
     cursor: pointer;
     height: 6rem;
     width: 6rem;
+    margin-right: 1rem;
 }
 
 .nav.collapsible--expanded .nav__toggler {
@@ -357,7 +358,7 @@ p {
     }
 
     .nav--btn{
-        font-size: 1.2rem;
+        font-size: 0.5rem;
     }
 }
 
