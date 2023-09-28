@@ -12,6 +12,47 @@
 </head>
 <body>
 
+<!-- Navbar -->
+
+<nav class="nav collapsible">
+    <a class="nav__brand" href="/"><img src="images/logo.png" alt="" class="nav--logo" /></a>
+    <svg class="icon icon--white nav__toggler">
+        <use xlink:href="icons/sprite.svg#menu"></use>
+    </svg>
+    <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Home</a></li>
+        <li class="nav__item"><a href="#">about us</a></li>
+        <li class="nav__item"><a href="#">Services</a></li>
+        <li class="nav__item"><a href="#">Portfolio</a></li>
+        <li class="nav__item"><a href="#">Team</a></li>
+        <li class="nav__item"><a href="#">Dropdown</a></li>
+        <li class="nav__item"><a href="#">Contact Us</a></li>
+    </ul>
+    <ul class="list nav__list collapsible__content">
+        <li class="nav__item nav--btn"><button class="btn btn--outline">Login</button></li>
+        <li class="nav__item nav--btn"><button class="btn btn--outline">Register</button></li>   
+    </ul>
+    
+</nav>
+
+
+<!-- Block -->
+
+
+<div class="main--block">
+    <h1 class="main__heading">The Best Solution for your Business </h1>
+
+    <picture class="pic__container">
+        <img class="img image--block img-01"src="./Images/meeting.png" alt="">
+        <img class="img image--block img-03"src="./Images/happy.png" alt="">
+        <img class="img image--block img-02"src="./Images/students.png" alt="">
+    </picture>
+</div>
+
+
+
+<!-- Cards -->
+
     <div class="main__card--block container">
         <div style="width: 28%; padding: 2rem;">
             <div class="card">
@@ -55,7 +96,94 @@
 
     </div>
 
+
+<!-- Hero -->
+
+
+<div class="container grid grid--1x2">
+    <header class="block__header hero__content">
+        <h3 class="block__heading">What We Do</h3>
+        <p class="hero__tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, distinctio? Lorem ipsum dolor sit amet.</p>
+    </header>
+    <picture>
+       
+        <img class="presentation" src="images/presentation.jpg" alt="" />
+    </picture>
+</div>
+
+
+<!-- News -->
+
+
+<div class="big__container container">
+    
+
+    <div class="news__container">
+        <div style="width: 20%; padding: 2rem;">
+            <div class="white-news__card">
+                <header class="news-card__header">
+                    <h3>News and Publication</h3>
+                    <p>The news about recent activities from ....</p>
+                </header>
+                <div class="news-card__body">
+                    <button class="nwes__btn btn btn--outline">See More</button>
+                </div>           
+            </div>    
+        </div>
+    
+        <div style="width: 20%; padding: 2rem;">
+            <div class="news__card">
+                <header class="news-card__header">
+                    <img src="./Images/news.png" alt="" class="news-card__image">
+                </header>
+                <div class="news-card__body">
+                    <h3 class="news-card__body--heading">Continue Reading</h3>             
+                </div>           
+            </div>    
+        </div>
+    
+    
+        <div style="width: 20%; padding: 2rem;">
+            <div class="news__card">
+                <header class="news-card__header">
+                    <img src="./Images/news.png" alt="" class="news-card__image">
+                </header>
+                <div class="news-card__body">
+                    <h3 class="news-card__body--heading">Continue Reading</h3>             
+                </div>           
+            </div>
+        </div>
+    
+        <div style="width: 20%; padding: 2rem;">
+            <div class="news__card">
+                <header class="news-card__header">
+                    <img src="./Images/news.png" alt="" class="news-card__image">
+                </header>
+                <div class="news-card__body">
+                    <h3 class="news-card__body--heading">Continue Reading</h3>             
+                </div>           
+            </div>
+        </div>
+    
+        </div>
+    </div>
+    
+
+
+
+<!-- Gallery -->
+
+<div class="gallery container">
+    <h2 class="gallery__heading">Gallery</h2>
+    <img src="./Images/gallery.png" alt="" srcset="">
+</div>
    
+
+<!-- Footer -->
+
+
+
+
 
 <script src="script.js"></script>
 </body>
