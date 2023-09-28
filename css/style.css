@@ -495,10 +495,16 @@ img{
 
 @media screen and (min-width: 1024px) {
    .presentation {
-    border-radius: 20px;
+    border-radius: 50px;
    }
 
 }
+
+.presentation__container{
+    padding: 5rem 0;
+}
+
+
 
 /* Gallery */
 
