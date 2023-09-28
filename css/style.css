@@ -504,7 +504,13 @@ img{
     padding: 5rem 0;
 }
 
+.block__heading{
+    padding: 0 2rem;
+}
 
+.hero__tagline{
+    padding: 2rem;
+}
 
 /* Gallery */
 
@@ -598,3 +604,49 @@ img{
     width: 20rem;
     height: 20rem;
 }
+
+
+/* Online Services */
+
+.service__container{
+    background-color: rgb(187, 185, 185, 0.5);
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 2rem;
+    text-align: center;
+   
+}
+
+.service__main-heading{
+    text-align: center;
+    color: white;
+}
+
+.weblink__heading{
+    text-align: left;
+    margin-left: 2rem;
+    font-size: ;
+}
+
+.weblinks{
+    background-color: white;
+    margin: 1.2rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 769px) {
+   .service__container{
+    padding: 1rem 5rem;
+    margin: 5rem;
+   }
+
+}
+
+.resources{
+    margin: 5rem 0;
+}
+
+.map__image{
+    border-radius: 20px;
+}
+
