@@ -323,15 +323,22 @@ p {
     opacity: 1;
 }
 
+.background1{
+    position: absolute;
+    top: o;
+    z-index: -1;
+
+}
+
 
 /* Navbar */
 
 .nav {
-    background: #fff;
+    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 1rem 0 1rem;
+    padding: 0;
     align-items: center;
 }
 
@@ -612,8 +619,9 @@ img{
     background-color: rgb(187, 185, 185, 0.5);
     border-radius: 10px;
     border: 1px solid black;
-    margin: 2rem;
+    margin: 10rem;
     text-align: center;
+    padding: 0 rem;
    
 }
 
@@ -745,3 +753,91 @@ img{
     height: 10rem;
     width: 10rem;   
 }
+
+
+
+/* Slider */
+
+
+@import url{link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"};
+
+/* *{margin: 0; padding: 0;} */
+/* a{text-decoration: none;} */
+/* li{list-style: none;}
+img{width: 100%;}
+body{background: #333;}
+h2{color: #2edf19; font-family: 'Lato'; font-weight: 300; padding: 20px; } */
+
+.slide_wrap{
+  width: 100%;
+  padding: 5rem 2rem 0 2rem;
+  position: relative;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0%);
+  box-sizing: border-box;
+  
+}
+
+.slide_show{
+  width: 860px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  top: 5rem 
+}
+
+.slide_show .slide_img{
+  width: 5000px; 
+  overflow: hidden;
+}
+
+.slide_show .slide_img > div{
+  float: left; 
+  width: 280px;
+  padding: 5px;
+}
+
+.slide_btn a{
+  position: absolute; top: 50%; 
+  transform: translateY(-50%);
+  color: #fff;
+  width: 60px; height: 60px; line-height: 58px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.3s;
+}
+.slide_btn a:hover{background-color: rgba(255, 255, 255, 0.3);}
+}
+.slide_btn a.prev{left: 10px}
+.slide_btn a.next{right: 10px;}
+
+
+.slidebar__heading{
+       
+}
+
+.slide{
+    margin: 0 2rem;
+}
+
+.slidebar__image{
+    height: 15rem;
+    width: 15rem;
+}
+
+.slide__img{
+    margin-top: 5rem;
+}
+
+.slide_img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .slide_img{
+    display: flex;
+    flex-wrap: wrap;
+} */
