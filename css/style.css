@@ -155,12 +155,19 @@ p {
 
 /* Cards */
 
+.main__card--block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .card{
-    width: 360px;
-    height: 480px;
+    width: 30rem;
+    height: 30rem;
     background-color: rgb(211, 211, 211);
     /* padding: 20px;   */
-    margin: 10px; 
+    margin: 1.2rem;   
     border-radius: 50px 0 50px 0;
     box-shadow: 0 0 10px 10px grey;   
 }
@@ -419,8 +426,6 @@ p {
 img{
     padding: 1rem 2rem;
 }
-
-
 
 
 /* Block heading */
